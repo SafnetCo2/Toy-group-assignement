@@ -1,6 +1,6 @@
-const balloonContainers = document.getElementById("balloonContainer");
-function random(num) {
-    return Math.floor(Math.random() * num);
+const coloredBalloons = document.getElementById("balloonDiv");
+function random(numbers) {
+    return Math.floor(Math.random() * numbers);
 }
 function getRandomStyles() {
     var r = random(255);
@@ -21,12 +21,12 @@ function getRandomStyles() {
     `;
 
 }
-function createBalloons(num) {
-    for (var i = num; i > 0; i--) {
+function createBalloons(numbers) {
+    for (var i = numbers; i > 0; i--) {
         var balloon = document.createElement("div");
         balloon.className = "balloon";
         balloon.style.cssText = getRandomStyles();
-        balloonContainers.append(balloon);
+        coloredBalloons.append(balloon);
     }
 }
 
@@ -79,7 +79,7 @@ function calculateSpeed() {
         document.getElementById("result").textContent = "Ok"
         // every 5km/h  over the speed limit of 70km/h driver recceiver 1  total point
     } else {
-        totals = Math.floor((speed - 70) / 5) ;
+        totals = Math.floor((speed - 70) / 5);
         //if points exceed 12 textContent  will be "License suspended"
         //maximum is 135 -70/5 for the license to be suspended
         if (totals > 12) {

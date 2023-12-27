@@ -13,7 +13,7 @@ h1 {
   color: #000;
 }
 
-#balloonContainer {
+#balloonDiv {
   height: 200vh;
   display: flex;
   box-sizing: border-box;
