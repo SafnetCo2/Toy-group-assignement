@@ -1,25 +1,25 @@
-# This repository contains solutions to three toy problems in JavaScript.
-# and  a balloon container to showcase ballons or an event of celebration
-### Author
+This repository contains solutions to three toy problems in JavaScript.
+ and  a balloon container to showcase ballons or an event of celebration
+# Author
 
 # Josephine mueni
 # Ballon generator addition
-# create a ballon container using id ballon container
-# get random ballons using a function with Math.flooe
-# create a function for random ballon colors
+ create a ballon container using id ballon container
+ get random ballons using a function with Math.flooe
+ create a function for random ballon colors
 
-# Challenge 1: Student Grade Generator
-# Write a program that prompts the user to input student marks. The input ## should be between 0 and 100. Then output the correct grade:
+ Challenge 1: Student Grade Generator
+ Write a program that prompts the user to input student marks. The input ## should be between 0 and 100. Then output the correct grade:
 
-# A > 79
-# B - 60 to 79
- # C - 59 to 49
-# D - 40 to 49
-# E - less than 40.
+ A > 79
+ B - 60 to 79
+  C - 59 to 49
+D - 40 to 49
+ E - less than 40.
 
-# steps to follow
-# have a html with an input, button with onclick function
-# add styles
+steps to follow
+have a html with an input, button with onclick function
+add styles
 # 1) get the id elements from the html to connect manipulate the Dom
 # 2) use an if statement to check students grades if its above the passmark or
 # certain points of 70, 50 and 40 to grade then
