@@ -79,7 +79,7 @@ function calculateSpeed() {
         document.getElementById("result").textContent = "Ok"
         // every 5km/h  over the speed limit of 70km/h driver recceiver 1  total point
     } else {
-        totals = Math.floor((speed - 70) / 5);
+        totals = Math.floor((speed - 70) / 5) ;
         //if points exceed 12 textContent  will be "License suspended"
         //maximum is 135 -70/5 for the license to be suspended
         if (totals > 12) {

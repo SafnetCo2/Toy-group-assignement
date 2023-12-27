@@ -1,23 +1,23 @@
-### This repository contains solutions to three toy problems in JavaScript.
+# This repository contains solutions to three toy problems in JavaScript.
 # and  a balloon container to showcase ballons or an event of celebration
 ### Author
 
 # Josephine mueni
-## Ballon generator addition
+# Ballon generator addition
 # create a ballon container using id ballon container
 # get random ballons using a function with Math.flooe
 # create a function for random ballon colors
 
-## Challenge 1: Student Grade Generator
-## Write a program that prompts the user to input student marks. The input ## should be between 0 and 100. Then output the correct grade:
+# Challenge 1: Student Grade Generator
+# Write a program that prompts the user to input student marks. The input ## should be between 0 and 100. Then output the correct grade:
 
-## A > 79
+# A > 79
 # B - 60 to 79
  # C - 59 to 49
 # D - 40 to 49
 # E - less than 40.
 
-## steps to follow
+# steps to follow
 # have a html with an input, button with onclick function
 # add styles
 # 1) get the id elements from the html to connect manipulate the Dom
@@ -47,23 +47,23 @@
 
 
 
-### Challenge 3: Net Salary Calculator
+# Challenge 3: Net Salary Calculator
 ## Write a program whose major task is to calculate an individual’s Net Salary by getting the inputs of basic salary and benefits. Calculate the payee (i.e. Tax), NHIFDeductions, NSSFDeductions, gross salary, and net salary.
 
 # NB: Use KRA, NHIF, and NSSF values provided in the link below.
 
 # KRA Tax Rates
 # NHIF and NSSF rates
-### steps
+# steps
 
 # get the id elements income, benefit, and salary to add scripts by using document.getElement by Id
 # store income and benefits with the step above
-## compute for tax (salary income + benefits)
+# compute for tax (salary income + benefits)
 # compute for nhif *0.02 rates and nssf * .12
 # net income = gross - (tax+nssf+nhif deductions)
 # display the output by asking the user to enter income and benefits
 
-## This repository is open for any comments, and any future changes
+# This repository is open for any comments, and any future changes
 # Toy problem is group challenge for part time students
 # School: Moringa School
 # Author: Josephine Mueni 
