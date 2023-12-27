@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Student grading Sytem</title>
+  </head>
+  <body>
+    <h1>Student Grading System</h1>
+    <div id="balloonContainer">
+      <div class="card">
+        <div id="mark">
+          Enter marks:
+          <input id="marks" type="text" placeholder="enter marks..." />
+          <button type="button" onclick="calculateGrade()">compute</button>
+          <p id="grade"></p>
+        </div>
+        <div id="speeds">
+          <h1>Speed Detector</h1>
+          Enter speed:
+          <input
+            id="speed"
+            type="number"
+            placeholder="enter speed in km/hr..."
+          />
+          <button type="button" onclick="calculateSpeed()">compute</button>
+          <p id="result"></p>
+        </div>
+
+        <div>
+          <h1>Net Salary Calculator</h1>
+          <h4>compute for net salary below</h4>
+          <input id="income" type="number" placeholder="income..." />
+          <input id="benefit" type="number" placeholder="benefits.." />
+          <button id="btn" type="button" onclick="netIncome()">compute</button>
+          <p id="salary"></p>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
